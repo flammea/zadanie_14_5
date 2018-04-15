@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-* { 
-    box-sizing: inherit; 
+* {
+  box-sizing: border-box;
 }
 
 body {
-    margin: auto;
-    font-family: "Open Sans";
-    background-color: #A18CD1;
-    color: #FFFFFF;
-    text-align: center;
+  font-family: "Open Sans";
+  background-color: #A18CD1;
+  background-color: #A18CD1;
+  color: #FFFFFF;
+}
+
+.app {} {
+  height: 150px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contactForm {
@@ -50,21 +56,21 @@ button:hover {
     border: solid 1px #FFFFFF;
 }
 
-.contactLabel {
-    margin: 20px auto;
-    font-weight: bold;
+ul {
+  padding-left: 19%;
 }
 
-.contactImage {
-    height: 150px;
-    border: solid 1px #FFFFFF;
-    border-radius: 50%;
-    margin: 20px auto;
+.contactItem {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
 }
 
 a {
     text-decoration: none;
     color: #FFFFFF;
 }
-
-
