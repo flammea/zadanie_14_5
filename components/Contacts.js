@@ -9,7 +9,12 @@ var Contacts = React.createClass({
     });
 
     return (
-      React.createElement('ul', {className: 'contactsList'}, contacts)
-    );
-  }
+      React.createElement('div', {},
+        React.createElement('h1', {}, "Lista kontaktów"),
+        React.createElement('ul', {className: 'contactsList'}, contacts)
+    )
+  )
+}
 });
+
+
